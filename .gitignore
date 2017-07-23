@@ -1,0 +1,6 @@
+_site
+.sass-cache
+.jekyll-metadata
+vector
+.bundle
+deploy_key
