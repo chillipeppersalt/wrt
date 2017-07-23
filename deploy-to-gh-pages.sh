@@ -38,7 +38,7 @@ doCompile
 # Now let's go have some fun with the cloned repo
 cd _site
 git config user.name "chillipeppersalt"
-git config user.email "$simran1997puri@gmail.com"
+git config user.email "simran1997puri@gmail.com"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
 if [ -z "`git diff --exit-code`" ]; then
