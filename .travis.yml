@@ -17,5 +17,27 @@ branches:
 env:
   global:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true 
-
+  - ENCRYPTION_LABEL: 0d645b87dfd2
+ 
 sudo: false
+0d645b87dfd2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
