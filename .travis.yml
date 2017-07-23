@@ -13,8 +13,6 @@ script:
 branches:
   only:
   - gh-pages     
-  - /pages-(.*)/
-  - travis
 
 env:
   global:
