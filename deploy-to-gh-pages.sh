@@ -24,19 +24,19 @@ SHA=`git rev-parse --verify HEAD`
 
 # Clone the existing gh-pages for this repo into out/
 # Create a new empty branch if gh-pages doesn't exist yet (should only happen on first deply)
-git clone $REPO _site
-cd _site
+git clone $REPO banana
+cd banana
 git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
 # Clean out existing contents
-rm -rf _site/**/* || exit 0
+rm -rf banana/**/* || exit 0
 
 # Run our compile script
 doCompile
 
 # Now let's go have some fun with the cloned repo
-cd _site
+cd banana
 git config user.name "chillipeppersalt"
 git config user.email "simran1997puri@gmail.com"
 
